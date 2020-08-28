@@ -1,28 +1,16 @@
 /**
  * app store actions
- * Sun Jul 26 01:36:24 2020
+ * Fri Aug 28 13:16:20 2020
  * by xiaoT
  */
-import { UPDATE_IMAGES, FILTER_IMAGES } from './actionTypes'
+import { UPDATE_USERINFO } from './actionTypes'
 
 /**
- * update images
- * @type {array}
+ * update userinfo
  */
-export const updateImages = (images: []): {type: string; images: []} => {
+export const updateUserinfo = (userinfo: {}): {type: string; userinfo: {}} => {
   return {
-    type: UPDATE_IMAGES,
-    images
-  }
-}
-
-/**
- * search filter images
- * @type {[type]}
- */
-export const filterImages = (filterKey: string): {type: string; filterKey: string} => {
-  return {
-    type: FILTER_IMAGES,
-    filterKey
+    type: UPDATE_USERINFO,
+    userinfo
   }
 }

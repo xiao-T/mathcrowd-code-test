@@ -1,8 +1,7 @@
 /**
  * react redux dispatch action types
- * Sun Jul 26 01:39:23 2020
+ * Fri Aug 28 13:17:50 2020
  * by xiaoT
  */
 
-export const UPDATE_IMAGES = 'UPDATE_IMAGES'
-export const FILTER_IMAGES = 'FILTER_IMAGES'
+export const UPDATE_USERINFO = 'UPDATE_USERINFO'
