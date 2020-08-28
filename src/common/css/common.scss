@@ -1,0 +1,23 @@
+/**
+ * common css
+ * by xiaoT
+ */
+
+@import './responsive.scss';
+@import './layout.scss';
+@import './form.scss';
+
+
+/* reset */
+* {
+  box-sizing: border-box;;
+}
+
+input {
+  border: none;
+}
+/* common css */
+.loading {
+  padding: 1rem;
+  text-align: center;
+}
