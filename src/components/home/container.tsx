@@ -5,9 +5,7 @@
  */
 
 import React, { FC } from 'react'
-// import axios from 'axios'
 
-// import { updateImages } from '@Store/actions'
 import Home from './home'
 
 const HomeContainer:FC<{}> = ():JSX.Element => {
