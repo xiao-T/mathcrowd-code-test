@@ -10,5 +10,5 @@ import { shallow, mount } from 'enzyme'
 import mountWithProvider from '@Store/mockStore'
 import Home from './home'
 
-describe('Gallery Test', () => {
+describe('Home Test', () => {
 })
