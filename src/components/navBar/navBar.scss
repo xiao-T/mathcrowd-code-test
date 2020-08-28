@@ -8,14 +8,79 @@
   height: rem(71);
   width: 100vw;
   max-width: 1440px;
+  padding: rem(15) rem(20);
   background-color: #fff;
   box-shadow: 0px 4px 8px rgba(103, 102, 102, 0.25);
   position: fixed;
   top: 0;
   left: 0;
+  .ant-form {
+    width: 100%;
+  }
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+
+  .nav-item {
+    &.active {
+      color: #1890ff;
+    }
+  }
+
+  .logo {
+    width: rem(112);
+    height: rem(32);
+    display: block;
+    background-image: url('./imgs/logo.png');
+    background-size: cover;
+  }
+
+  .search-form {
+    width: 40%;
+  }
+}
+
+.dropdown {
+  display: none;
+}
+
+.drop-menu {
+  box-shadow: 0 3px 6px -4px rgba(0,0,0,.12), 0 6px 16px 0 rgba(0,0,0,.08), 0 9px 28px 8px rgba(0,0,0,.05) !important;
+  .nav-item {
+    &.active {
+      color: #1890ff;
+    }
+  }
+  .drop-menu-login-status {
+    padding: rem(4) 1rem;
+    .bell-icon {
+      display: none;
+    }
+  }
 }
 
 @media (max-width: 768px) {
-  .nav-bar {}
+  .nav-bar {
+    height: rem(50);
+    padding: rem(8) rem(10);
+    .logo {
+      width: rem(56);
+      height: rem(16);
+    }
+    .navs,
+    .login-status {
+      display: none;
+    }
+    .search-form {
+      flex: 1;
+      margin: 0 rem(20);
+    }
+  }
+  .dropdown {
+    display: block;
+    .drop-menu-login-status {
+      display: block;
+    }
+  }
 }
 

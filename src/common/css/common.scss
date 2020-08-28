@@ -4,15 +4,11 @@
  */
 
 @import './responsive.scss';
-@import './layout.scss';
-@import './form.scss';
-
 
 /* reset */
-* {
-  box-sizing: border-box;;
+a {
+  color: currentColor;
 }
-
 input {
   border: none;
 }
@@ -20,4 +16,10 @@ input {
 .loading {
   padding: 1rem;
   text-align: center;
+}
+
+/* icon */
+.anticon,
+.icon {
+  font-size: 16px;
 }

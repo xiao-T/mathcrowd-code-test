@@ -4,7 +4,6 @@
  */
 
 import React, { FC } from 'react'
-import { Button } from 'antd'
 
 import NavBar from '@Components/navBar/'
 
@@ -14,7 +13,6 @@ const Home:FC<HomeProps> = ():JSX.Element => {
   return (
     <>
       <NavBar />
-      <Button type='primary'>antd button</Button>
     </>
   )
 }

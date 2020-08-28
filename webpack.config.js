@@ -82,6 +82,20 @@ let config = {
           limit: 10 * 1024,
           name: baseParams.fileContext + '/medias/[name].[hash:8].[ext]'
         }
+      }, {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'babel-loader'
+          },
+          {
+            loader: '@svgr/webpack',
+            options: {
+              babel: false,
+              icon: true
+            }
+          }
+        ]
       }
     ]
   },

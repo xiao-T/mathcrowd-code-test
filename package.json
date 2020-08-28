@@ -25,6 +25,7 @@
   "author": "xiaoT",
   "license": "ISC",
   "dependencies": {
+    "@ant-design/icons": "^4.2.2",
     "@reduxjs/toolkit": "^1.4.0",
     "antd": "^4.6.1",
     "area-data": "^5.0.6",
@@ -51,6 +52,7 @@
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "@svgr/webpack": "^5.4.0",
     "@testing-library/react": "^10.4.7",
     "@types/enzyme": "^3.10.5",
     "@types/jest": "^25.2.1",
